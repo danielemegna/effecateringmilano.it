@@ -1,3 +1,3 @@
-FROM nginx:alpine
+FROM fnichol/uhttpd
 
-COPY . /usr/share/nginx/html/
+COPY . /www
